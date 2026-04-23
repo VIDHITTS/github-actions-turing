@@ -6,4 +6,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: print Hello
-        run: node haha.js
+        run: echo "Hello world"
+      - name: Repo clone
+        uses: actions/checkout@v4
+      - name: function
+        run : node haha.js
