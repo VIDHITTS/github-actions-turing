@@ -6,4 +6,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: print Hello
-        run: echo "Hello world"
+        run: node haha.js
